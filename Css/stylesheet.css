@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/WebDev.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 20vw;
+}
+#centrer {
+    padding: 3% 5% 3% 5%;
+    border-radius: 10%;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#formulaire input{
+    text-align: center;
+    font-size: large;
+    height: 3vh;
+}
+
+#formulaire button{
+    margin-top: 25px;
+    border-radius: 5%;
+    border: none;
+    background-color: lightblue;
+    height: 5vh;
+}
+
+#formulaire button:hover{
+    background-color: rgb(127, 206, 233);
+}
+#centrer div{
+    padding-top: 5%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.erreur{
+    border: 2px solid red;
+}
+
+.message-erreur{
+    color: red;
+    margin-bottom: 10px;
+    font-size: larger;
+}
